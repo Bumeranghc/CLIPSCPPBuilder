@@ -1,0 +1,180 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{27B7D028-8313-428D-8911-E69F4BF697E9}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="CLIPSDOS.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIPSIDE.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIPSStatic.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIPSDynamic.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIPSWrapper.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIPSJNI.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FuzzyCLIPSDOS.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FuzzyCLIPSIDE.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FuzzyCLIPSStatic.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FuzzyCLIPSDynamic.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FuzzyCLIPSWrapper.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FuzzyCLIPSJNI.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="CLIPSBuilder.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="CLIPSDOS">
+        <MSBuild Projects="CLIPSDOS.cbproj"/>
+    </Target>
+    <Target Name="CLIPSDOS:Clean">
+        <MSBuild Projects="CLIPSDOS.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSDOS:Make">
+        <MSBuild Projects="CLIPSDOS.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="CLIPSIDE">
+        <MSBuild Projects="CLIPSIDE.cbproj"/>
+    </Target>
+    <Target Name="CLIPSIDE:Clean">
+        <MSBuild Projects="CLIPSIDE.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSIDE:Make">
+        <MSBuild Projects="CLIPSIDE.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="CLIPSStatic">
+        <MSBuild Projects="CLIPSStatic.cbproj"/>
+    </Target>
+    <Target Name="CLIPSStatic:Clean">
+        <MSBuild Projects="CLIPSStatic.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSStatic:Make">
+        <MSBuild Projects="CLIPSStatic.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="CLIPSDynamic">
+        <MSBuild Projects="CLIPSDynamic.cbproj"/>
+    </Target>
+    <Target Name="CLIPSDynamic:Clean">
+        <MSBuild Projects="CLIPSDynamic.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSDynamic:Make">
+        <MSBuild Projects="CLIPSDynamic.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="CLIPSWrapper">
+        <MSBuild Projects="CLIPSWrapper.cbproj"/>
+    </Target>
+    <Target Name="CLIPSWrapper:Clean">
+        <MSBuild Projects="CLIPSWrapper.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSWrapper:Make">
+        <MSBuild Projects="CLIPSWrapper.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="CLIPSJNI">
+        <MSBuild Projects="CLIPSJNI.cbproj"/>
+    </Target>
+    <Target Name="CLIPSJNI:Clean">
+        <MSBuild Projects="CLIPSJNI.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSJNI:Make">
+        <MSBuild Projects="CLIPSJNI.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="FuzzyCLIPSDOS">
+        <MSBuild Projects="FuzzyCLIPSDOS.cbproj"/>
+    </Target>
+    <Target Name="FuzzyCLIPSDOS:Clean">
+        <MSBuild Projects="FuzzyCLIPSDOS.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FuzzyCLIPSDOS:Make">
+        <MSBuild Projects="FuzzyCLIPSDOS.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="FuzzyCLIPSIDE">
+        <MSBuild Projects="FuzzyCLIPSIDE.cbproj"/>
+    </Target>
+    <Target Name="FuzzyCLIPSIDE:Clean">
+        <MSBuild Projects="FuzzyCLIPSIDE.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FuzzyCLIPSIDE:Make">
+        <MSBuild Projects="FuzzyCLIPSIDE.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="FuzzyCLIPSStatic">
+        <MSBuild Projects="FuzzyCLIPSStatic.cbproj"/>
+    </Target>
+    <Target Name="FuzzyCLIPSStatic:Clean">
+        <MSBuild Projects="FuzzyCLIPSStatic.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FuzzyCLIPSStatic:Make">
+        <MSBuild Projects="FuzzyCLIPSStatic.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="FuzzyCLIPSDynamic">
+        <MSBuild Projects="FuzzyCLIPSDynamic.cbproj"/>
+    </Target>
+    <Target Name="FuzzyCLIPSDynamic:Clean">
+        <MSBuild Projects="FuzzyCLIPSDynamic.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FuzzyCLIPSDynamic:Make">
+        <MSBuild Projects="FuzzyCLIPSDynamic.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="FuzzyCLIPSWrapper">
+        <MSBuild Projects="FuzzyCLIPSWrapper.cbproj"/>
+    </Target>
+    <Target Name="FuzzyCLIPSWrapper:Clean">
+        <MSBuild Projects="FuzzyCLIPSWrapper.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FuzzyCLIPSWrapper:Make">
+        <MSBuild Projects="FuzzyCLIPSWrapper.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="FuzzyCLIPSJNI">
+        <MSBuild Projects="FuzzyCLIPSJNI.cbproj"/>
+    </Target>
+    <Target Name="FuzzyCLIPSJNI:Clean">
+        <MSBuild Projects="FuzzyCLIPSJNI.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FuzzyCLIPSJNI:Make">
+        <MSBuild Projects="FuzzyCLIPSJNI.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="CLIPSBuilder">
+        <MSBuild Projects="CLIPSBuilder.cbproj"/>
+    </Target>
+    <Target Name="CLIPSBuilder:Clean">
+        <MSBuild Projects="CLIPSBuilder.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="CLIPSBuilder:Make">
+        <MSBuild Projects="CLIPSBuilder.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="CLIPSDOS;CLIPSIDE;CLIPSStatic;CLIPSDynamic;CLIPSWrapper;CLIPSJNI;FuzzyCLIPSDOS;FuzzyCLIPSIDE;FuzzyCLIPSStatic;FuzzyCLIPSDynamic;FuzzyCLIPSWrapper;FuzzyCLIPSJNI;CLIPSBuilder"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="CLIPSDOS:Clean;CLIPSIDE:Clean;CLIPSStatic:Clean;CLIPSDynamic:Clean;CLIPSWrapper:Clean;CLIPSJNI:Clean;FuzzyCLIPSDOS:Clean;FuzzyCLIPSIDE:Clean;FuzzyCLIPSStatic:Clean;FuzzyCLIPSDynamic:Clean;FuzzyCLIPSWrapper:Clean;FuzzyCLIPSJNI:Clean;CLIPSBuilder:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="CLIPSDOS:Make;CLIPSIDE:Make;CLIPSStatic:Make;CLIPSDynamic:Make;CLIPSWrapper:Make;CLIPSJNI:Make;FuzzyCLIPSDOS:Make;FuzzyCLIPSIDE:Make;FuzzyCLIPSStatic:Make;FuzzyCLIPSDynamic:Make;FuzzyCLIPSWrapper:Make;FuzzyCLIPSJNI:Make;CLIPSBuilder:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
